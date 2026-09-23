@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: white; color: #0F172A; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: linear-gradient(135deg, #f3d1e1 0%, #b8b1d9 50%, #9ba1d0 100%); background-attachment: fixed; color: white; }
         .hero-bg {
             background: radial-gradient(circle at 30% 70%, rgba(139, 94, 52, 0.15) 0%, transparent 40%),
                         radial-gradient(circle at 70% 30%, rgba(200, 150, 70, 0.1) 0%, transparent 50%);
@@ -21,7 +21,7 @@
         .beige-section { background-color: #F8EFE4; color: #1A1A1A; }
     </style>
 </head>
-<body class="antialiased overflow-x-hidden">
+<body class="antialiased overflow-x-hidden text-white">
     <!-- RESADEX HERO SECTION -->
     <header class="relative min-h-screen flex flex-col justify-between items-center overflow-hidden bg-slate-300">
         <!-- Background Image (User's design) -->
@@ -150,11 +150,11 @@
 
     </header>
 
-    <section class="bg-white py-24 px-6 lg:px-12">
+    <section class="bg-transparent py-24 px-6 lg:px-12">
         <div class="max-w-7xl mx-auto flex flex-col items-center text-center mb-16">
             <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">EXPERIENCE THE PLATFORM</div>
-            <h2 class="text-3xl md:text-5xl font-bold mb-4 text-[#0F172A] tracking-tight">See Ethioviral in Action</h2>
-            <p class="text-slate-500 text-sm max-w-2xl mx-auto">Watch how simple it is to boost your social media accounts and manage your campaigns.</p>
+            <h2 class="text-3xl md:text-5xl font-bold mb-4 text-white tracking-tight">See Ethioviral in Action</h2>
+            <p class="text-white/70 text-sm max-w-2xl mx-auto">Watch how simple it is to boost your social media accounts and manage your campaigns.</p>
         </div>
 
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -162,45 +162,45 @@
             <!-- Left Side Features -->
             <div class="space-y-6">
                 <!-- Active Feature (Orange border) -->
-                <div class="bg-white shadow-sm border border-slate-200 border border-slate-200 border-b-[#F97316] border-b-2 rounded-2xl p-6 flex items-start gap-5 cursor-pointer shadow-lg relative overflow-hidden">
+                <div class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] border-b-[#F97316] border-b-2 rounded-2xl p-6 flex items-start gap-5 cursor-pointer shadow-lg relative overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-[#F97316]/10 pointer-events-none"></div>
-                    <div class="w-12 h-12 rounded-xl bg-[#2A221E] border border-slate-200 flex items-center justify-center shrink-0 relative z-10">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                    <div class="w-12 h-12 rounded-xl bg-[#2A221E] border border-white/20 flex items-center justify-center shrink-0 relative z-10">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
                     </div>
                     <div class="relative z-10">
-                        <h4 class="text-[#0F172A] font-bold text-lg mb-1 flex items-center gap-2">Instant SMM Overview <span class="w-1.5 h-1.5 rounded-full bg-[#0F172A]"></span></h4>
+                        <h4 class="text-white font-bold text-lg mb-1 flex items-center gap-2">Instant SMM Overview <span class="w-1.5 h-1.5 rounded-full bg-white text-[#9ba1d0] font-bold"></span></h4>
                         <div class="text-blue-600 font-bold text-[11px] mb-2">Pick, order, and grow in seconds</div>
-                        <p class="text-xs text-slate-500 leading-relaxed max-w-sm">Choose the platform and service that fits your goal, then review the rate and requirements before ordering.</p>
+                        <p class="text-xs text-white/70 leading-relaxed max-w-sm">Choose the platform and service that fits your goal, then review the rate and requirements before ordering.</p>
                     </div>
                 </div>
 
                 <!-- Inactive Feature 2 -->
-                <div class="bg-transparent border border-transparent p-6 flex items-start gap-5 cursor-pointer hover:bg-white/5 rounded-2xl transition">
-                    <div class="w-12 h-12 rounded-xl bg-white shadow-sm border border-slate-200 border border-slate-200 flex items-center justify-center shrink-0">
+                <div class="bg-transparent border border-transparent p-6 flex items-start gap-5 cursor-pointer hover:bg-transparent/5 rounded-2xl transition">
+                    <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] flex items-center justify-center shrink-0">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
                     </div>
                     <div>
-                        <h4 class="text-slate-600 font-bold text-lg mb-1">Simple Dashboard Control</h4>
-                        <p class="text-xs text-slate-400 leading-relaxed">Add funds and track orders in real-time</p>
+                        <h4 class="text-white/80 font-bold text-lg mb-1">Simple Dashboard Control</h4>
+                        <p class="text-xs text-white/60 leading-relaxed">Add funds and track orders in real-time</p>
                     </div>
                 </div>
 
                 <!-- Inactive Feature 3 -->
-                <div class="bg-transparent border border-transparent p-6 flex items-start gap-5 cursor-pointer hover:bg-white/5 rounded-2xl transition">
-                    <div class="w-12 h-12 rounded-xl bg-white shadow-sm border border-slate-200 border border-slate-200 flex items-center justify-center shrink-0">
+                <div class="bg-transparent border border-transparent p-6 flex items-start gap-5 cursor-pointer hover:bg-transparent/5 rounded-2xl transition">
+                    <div class="w-12 h-12 rounded-xl bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] flex items-center justify-center shrink-0">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2"><path d="M8 21h8m-4-4v4m0-18v3m5.5 1A8.5 8.5 0 1 1 6.5 8h11z"></path></svg>
                     </div>
                     <div>
-                        <h4 class="text-slate-600 font-bold text-lg mb-1">Proven Growth Results</h4>
-                        <p class="text-xs text-slate-400 leading-relaxed">Safe delivery and refill options</p>
+                        <h4 class="text-white/80 font-bold text-lg mb-1">Proven Growth Results</h4>
+                        <p class="text-xs text-white/60 leading-relaxed">Safe delivery and refill options</p>
                     </div>
                 </div>
             </div>
 
             <!-- Right Side Mobile Mockup -->
             <div class="flex justify-center relative">
-                <div class="w-[320px] h-[640px] bg-white rounded-[3rem] p-4 shadow-2xl relative z-10 border-[8px] border-[#2A2A2A]">
-                    <div class="w-full h-full rounded-[2.2rem] bg-white overflow-hidden relative flex flex-col pt-12">
+                <div class="w-[320px] h-[640px] bg-transparent rounded-[3rem] p-4 shadow-2xl relative z-10 border-[8px] border-[#2A2A2A]">
+                    <div class="w-full h-full rounded-[2.2rem] bg-transparent overflow-hidden relative flex flex-col pt-12">
                         <!-- Dynamic Island -->
                         <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-7 bg-black rounded-b-2xl"></div>
                         
@@ -235,13 +235,13 @@
     </section>
 
     <!-- SECTION: Every important step stays visible (Screenshot 2) -->
-    <section class="bg-slate-50 py-24 px-6 lg:px-12 relative overflow-hidden">
+    <section class="bg-transparent py-24 px-6 lg:px-12 relative overflow-hidden">
         <div class="max-w-7xl mx-auto">
             
             <div class="mb-16">
                 <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">DESIGNED AROUND REAL ACTIONS</div>
                 <h2 class="text-4xl md:text-6xl font-black mb-6 leading-[1.1] tracking-tight text-[#111]">Every important step stays<br>visible.</h2>
-                <p class="text-slate-400 text-sm max-w-xl leading-relaxed">
+                <p class="text-white/60 text-sm max-w-xl leading-relaxed">
                     Explore the information customers use to place, fund, and track an order. These previews follow the same structure as the product, so the experience is easy on desktop and mobile.
                 </p>
             </div>
@@ -251,29 +251,29 @@
                 <!-- Left Side: Cards -->
                 <div class="space-y-4">
                     <!-- Active Orange Card -->
-                    <div class="bg-[#0F172A] rounded-2xl p-6 shadow-xl">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0F172A" stroke-width="2" class="mb-4"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
-                        <h4 class="text-[#0F172A] font-bold text-sm mb-1">SMM panel</h4>
-                        <p class="text-[#0F172A]/80 text-[11px] leading-relaxed">Link, quantity, price preview, and one clear order action.</p>
+                    <div class="bg-white text-[#9ba1d0] font-bold rounded-2xl p-6 shadow-xl">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="mb-4"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                        <h4 class="text-white font-bold text-sm mb-1">SMM panel</h4>
+                        <p class="text-white/80 text-[11px] leading-relaxed">Link, quantity, price preview, and one clear order action.</p>
                     </div>
 
                     <!-- Inactive White Cards -->
-                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="mb-4"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    <div class="bg-transparent rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="mb-4"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
                         <h4 class="text-white font-bold text-sm mb-1">Digital store</h4>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">The saved product name and current server price stay visible.</p>
+                        <p class="text-white/60 text-[11px] leading-relaxed">The saved product name and current server price stay visible.</p>
                     </div>
 
-                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="mb-4"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    <div class="bg-transparent rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="mb-4"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
                         <h4 class="text-white font-bold text-sm mb-1">Wallet funding</h4>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">Every payment has a clear verification state before wallet credit.</p>
+                        <p class="text-white/60 text-[11px] leading-relaxed">Every payment has a clear verification state before wallet credit.</p>
                     </div>
 
-                    <div class="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="mb-4"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                    <div class="bg-transparent rounded-2xl p-6 shadow-sm border border-gray-100 cursor-pointer hover:border-gray-300 transition">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="mb-4"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
                         <h4 class="text-white font-bold text-sm mb-1">Order tracking</h4>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">Recipient details and provider updates, without another dashboard.</p>
+                        <p class="text-white/60 text-[11px] leading-relaxed">Recipient details and provider updates, without another dashboard.</p>
                     </div>
                 </div>
 
@@ -288,22 +288,22 @@
                             </div>
                             <h3 class="text-3xl font-black text-white">Choose a service. Set the quantity. Place<br>one clear order.</h3>
                         </div>
-                        <p class="text-slate-400 text-[11px] max-w-xs text-right leading-relaxed hidden xl:block">
+                        <p class="text-white/60 text-[11px] max-w-xs text-right leading-relaxed hidden xl:block">
                             Search the service you need, add the social link, check the total, and submit with your wallet balance.
                         </p>
                     </div>
 
                     <!-- Dashboard Window -->
-                    <div class="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-200 overflow-hidden flex flex-col">
+                    <div class="bg-transparent rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.05)] border border-gray-200 overflow-hidden flex flex-col">
                         
                         <!-- Mac Window Header -->
-                        <div class="bg-white px-4 py-3 flex justify-between items-center border-b border-gray-100">
+                        <div class="bg-transparent px-4 py-3 flex justify-between items-center border-b border-gray-100">
                             <div class="flex gap-2">
                                 <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
                                 <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
                                 <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
                             </div>
-                            <div class="text-[9px] font-bold text-slate-600 tracking-widest uppercase">ETHIO VIRAL WORKSPACE</div>
+                            <div class="text-[9px] font-bold text-white/80 tracking-widest uppercase">ETHIO VIRAL WORKSPACE</div>
                             <div class="w-4">
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#CBD5E1" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line></svg>
                             </div>
@@ -313,87 +313,87 @@
                         <div class="flex h-[450px]">
                             <!-- Sidebar -->
                             <div class="w-48 bg-[#111] p-5 flex flex-col gap-2 rounded-bl-2xl shadow-xl z-10 relative">
-                                <div class="text-[#0F172A] font-black text-sm mb-8">
+                                <div class="text-white font-black text-sm mb-8">
                                     ETHIO <span class="text-blue-600">VIRAL</span>
                                 </div>
-                                <div class="text-slate-500 font-bold text-[11px] px-3 py-2">Dashboard</div>
+                                <div class="text-white/70 font-bold text-[11px] px-3 py-2">Dashboard</div>
                                 <div class="text-blue-600 font-bold text-[11px] px-3 py-2">New order</div>
-                                <div class="text-slate-500 font-bold text-[11px] px-3 py-2">Digital store</div>
-                                <div class="text-slate-500 font-bold text-[11px] px-3 py-2">Add funds</div>
-                                <div class="text-slate-500 font-bold text-[11px] px-3 py-2">Orders</div>
+                                <div class="text-white/70 font-bold text-[11px] px-3 py-2">Digital store</div>
+                                <div class="text-white/70 font-bold text-[11px] px-3 py-2">Add funds</div>
+                                <div class="text-white/70 font-bold text-[11px] px-3 py-2">Orders</div>
 
                                 <div class="mt-auto">
-                                    <div class="text-[9px] text-slate-400 font-bold uppercase tracking-wider mb-1 px-3">WALLET</div>
-                                    <div class="text-[#0F172A] font-bold text-sm px-3">$29.54</div>
+                                    <div class="text-[9px] text-white/60 font-bold uppercase tracking-wider mb-1 px-3">WALLET</div>
+                                    <div class="text-white font-bold text-sm px-3">$29.54</div>
                                 </div>
                             </div>
                             
                             <!-- Main Area -->
-                            <div class="flex-1 bg-white p-8 flex flex-col relative bg-gray-50/50">
+                            <div class="flex-1 bg-transparent p-8 flex flex-col relative bg-gray-50/50">
                                 <div class="flex justify-between items-center mb-8">
                                     <div>
-                                        <div class="text-slate-500 text-[9px] font-bold tracking-widest uppercase mb-1">WORKSPACE</div>
+                                        <div class="text-white/70 text-[9px] font-bold tracking-widest uppercase mb-1">WORKSPACE</div>
                                         <h3 class="text-lg font-bold text-white">Everything you need, without extra steps.</h3>
                                     </div>
-                                    <div class="bg-white border border-gray-200 px-4 py-1.5 rounded-full text-[11px] font-bold text-slate-400 shadow-sm">
+                                    <div class="bg-transparent border border-gray-200 px-4 py-1.5 rounded-full text-[11px] font-bold text-white/60 shadow-sm">
                                         Balance $29.54
                                     </div>
                                 </div>
 
                                 <div class="grid grid-cols-2 gap-6 flex-1">
                                     <!-- Left Column (Service Selection) -->
-                                    <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col">
+                                    <div class="bg-transparent border border-gray-100 rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col">
                                         <div class="flex justify-between items-start mb-4">
                                             <div>
                                                 <h4 class="font-bold text-sm text-white">New SMM order</h4>
-                                                <p class="text-[10px] text-slate-500">Start with a service that fits your goal.</p>
+                                                <p class="text-[10px] text-white/70">Start with a service that fits your goal.</p>
                                             </div>
-                                            <div class="bg-gray-100 text-slate-400 text-[9px] font-bold px-2 py-1 rounded">Wallet ready</div>
+                                            <div class="bg-gray-100 text-white/60 text-[9px] font-bold px-2 py-1 rounded">Wallet ready</div>
                                         </div>
 
                                         <div class="flex gap-2 mb-4">
-                                            <div class="bg-[#0F172A] text-[#0F172A] text-[10px] font-bold px-3 py-1.5 rounded-full">Instagram</div>
-                                            <div class="bg-gray-100 text-slate-400 text-[10px] font-bold px-3 py-1.5 rounded-full">TikTok</div>
-                                            <div class="bg-gray-100 text-slate-400 text-[10px] font-bold px-3 py-1.5 rounded-full">YouTube</div>
-                                            <div class="bg-gray-100 text-slate-400 text-[10px] font-bold px-3 py-1.5 rounded-full">Telegram</div>
+                                            <div class="bg-white text-[#9ba1d0] font-bold text-white text-[10px] font-bold px-3 py-1.5 rounded-full">Instagram</div>
+                                            <div class="bg-gray-100 text-white/60 text-[10px] font-bold px-3 py-1.5 rounded-full">TikTok</div>
+                                            <div class="bg-gray-100 text-white/60 text-[10px] font-bold px-3 py-1.5 rounded-full">YouTube</div>
+                                            <div class="bg-gray-100 text-white/60 text-[10px] font-bold px-3 py-1.5 rounded-full">Telegram</div>
                                         </div>
 
                                         <div class="relative mb-4">
                                             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="2" class="absolute left-3 top-1/2 -translate-y-1/2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                                            <input type="text" placeholder="Search services" class="w-full border border-gray-200 rounded-lg pl-8 pr-3 py-2 text-[11px] text-slate-400 focus:outline-none">
+                                            <input type="text" placeholder="Search services" class="w-full border border-gray-200 rounded-lg pl-8 pr-3 py-2 text-[11px] text-white/60 focus:outline-none">
                                         </div>
 
                                         <div class="border border-[#F97316] bg-orange-50/30 rounded-lg p-3 flex justify-between items-center cursor-pointer">
                                             <div>
                                                 <div class="font-bold text-[11px] text-white">Instagram Followers</div>
-                                                <div class="text-[9px] text-slate-400">High quality • Start 0-30 min</div>
+                                                <div class="text-[9px] text-white/60">High quality • Start 0-30 min</div>
                                             </div>
                                             <div class="text-blue-600 font-bold text-sm">$1.20</div>
                                         </div>
                                     </div>
 
                                     <!-- Right Column (Checkout) -->
-                                    <div class="bg-white border border-gray-100 rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col">
+                                    <div class="bg-transparent border border-gray-100 rounded-xl p-6 shadow-[0_4px_20px_rgba(0,0,0,0.03)] flex flex-col">
                                         <div class="mb-4">
-                                            <label class="block text-[9px] font-bold text-slate-400 tracking-wider uppercase mb-1.5">LINK</label>
+                                            <label class="block text-[9px] font-bold text-white/60 tracking-wider uppercase mb-1.5">LINK</label>
                                             <input type="text" value="instagram.com/yourbrand" class="w-full border border-gray-200 rounded-lg p-2.5 text-[11px] text-white font-medium focus:outline-none">
                                         </div>
 
                                         <div class="mb-auto">
-                                            <label class="block text-[9px] font-bold text-slate-400 tracking-wider uppercase mb-1.5">QUANTITY</label>
+                                            <label class="block text-[9px] font-bold text-white/60 tracking-wider uppercase mb-1.5">QUANTITY</label>
                                             <input type="text" value="1,000" class="w-full border border-gray-200 rounded-lg p-2.5 text-[11px] text-white font-medium focus:outline-none">
                                         </div>
 
                                         <div class="bg-[#111] rounded-xl p-4 mt-6">
                                             <div class="flex justify-between items-center mb-1">
-                                                <span class="text-[#0F172A] text-[10px] font-bold">Wallet balance</span>
-                                                <span class="text-[#0F172A] text-[10px] font-bold">$29.54</span>
+                                                <span class="text-white text-[10px] font-bold">Wallet balance</span>
+                                                <span class="text-white text-[10px] font-bold">$29.54</span>
                                             </div>
                                             <div class="flex justify-between items-center mb-4">
-                                                <span class="text-[#0F172A] text-[13px] font-bold">Estimated total</span>
-                                                <span class="text-[#0F172A] text-[13px] font-bold">$1.20</span>
+                                                <span class="text-white text-[13px] font-bold">Estimated total</span>
+                                                <span class="text-white text-[13px] font-bold">$1.20</span>
                                             </div>
-                                            <button class="w-full bg-[#0F172A] text-[#0F172A] text-[11px] font-bold py-2.5 rounded-lg flex justify-center items-center gap-1 shadow-lg">
+                                            <button class="w-full bg-white text-[#9ba1d0] font-bold text-white text-[11px] font-bold py-2.5 rounded-lg flex justify-center items-center gap-1 shadow-lg">
                                                 Place order <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
                                             </button>
                                         </div>
@@ -403,7 +403,7 @@
                         </div>
                     </div>
                     
-                    <div class="mt-4 flex items-center justify-center gap-2 text-[10px] text-slate-400 font-semibold">
+                    <div class="mt-4 flex items-center justify-center gap-2 text-[10px] text-white/60 font-semibold">
                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
                         Mobile layouts preserve the same key fields and action order, without squeezing the screen.
                     </div>
@@ -414,37 +414,37 @@
     </section>
 
     <!-- SECTION: Grow an audience. Deliver something useful. (Screenshot 3) -->
-    <section class="bg-slate-50 py-24 px-6 lg:px-12">
+    <section class="bg-transparent py-24 px-6 lg:px-12">
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-8">
                 <div>
                     <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">ONE ACCOUNT. TWO ENGINES.</div>
-                    <h2 class="text-4xl md:text-6xl font-extrabold text-[#0F172A] leading-[1.1] tracking-tight">Grow an audience.<br>Deliver something useful.</h2>
+                    <h2 class="text-4xl md:text-6xl font-extrabold text-white leading-[1.1] tracking-tight">Grow an audience.<br>Deliver something useful.</h2>
                 </div>
-                <p class="text-slate-500 text-sm max-w-sm leading-relaxed mb-2">
+                <p class="text-white/70 text-sm max-w-sm leading-relaxed mb-2">
                     Ethioviral combines social growth services and a digital-goods store with one wallet and one order history.
                 </p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- SMM Services Card -->
-                <div class="bg-[#151F17] rounded-[2rem] p-10 border border-slate-200 relative overflow-hidden flex flex-col justify-end min-h-[400px]">
+                <div class="bg-[#151F17] rounded-[2rem] p-10 border border-white/20 relative overflow-hidden flex flex-col justify-end min-h-[400px]">
                     <div class="absolute inset-0 bg-gradient-to-tr from-transparent via-[#4ADE80]/5 to-transparent"></div>
                     
                     <div class="absolute top-10 left-10 flex justify-between items-center w-[calc(100%-5rem)]">
                         <span class="text-blue-600 text-[9px] font-bold tracking-widest uppercase">SMM SERVICES</span>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0F172A" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                     </div>
 
                     <div class="relative z-10 mt-auto">
                         <div class="flex -space-x-2 mb-6">
-                            <img src="https://ethio-viral.com/platform-logos/instagram.png" class="w-8 h-8 rounded-full border-2 border-[#151F17] bg-white p-1">
-                            <img src="https://ethio-viral.com/platform-logos/tiktok_logo.jpg" class="w-8 h-8 rounded-full border-2 border-[#151F17]">
-                            <img src="https://ethio-viral.com/platform-logos/youtube_logo.png" class="w-8 h-8 rounded-full border-2 border-[#151F17] bg-white p-1">
-                            <img src="https://ethio-viral.com/platform-logos/telegram_logo.png" class="w-8 h-8 rounded-full border-2 border-[#151F17] bg-white p-1">
+                            <img src="https://ethio-viral.com/platform-logos/instagram.png" class="w-8 h-8 rounded-full border-2 border-white/40 bg-transparent p-1">
+                            <img src="https://ethio-viral.com/platform-logos/tiktok_logo.jpg" class="w-8 h-8 rounded-full border-2 border-white/40">
+                            <img src="https://ethio-viral.com/platform-logos/youtube_logo.png" class="w-8 h-8 rounded-full border-2 border-white/40 bg-transparent p-1">
+                            <img src="https://ethio-viral.com/platform-logos/telegram_logo.png" class="w-8 h-8 rounded-full border-2 border-white/40 bg-transparent p-1">
                         </div>
-                        <h3 class="text-3xl md:text-4xl font-extrabold text-[#0F172A] mb-4 leading-tight tracking-tight">Choose the result, enter the<br>target, track the order.</h3>
-                        <p class="text-slate-500 text-sm leading-relaxed max-w-md">
+                        <h3 class="text-3xl md:text-4xl font-extrabold text-white mb-4 leading-tight tracking-tight">Choose the result, enter the<br>target, track the order.</h3>
+                        <p class="text-white/70 text-sm leading-relaxed max-w-md">
                             Compare requirements and rates before you order. The selected service, target link, quantity, charge, and progress stay visible afterward.
                         </p>
                     </div>
@@ -456,10 +456,10 @@
                     <div class="absolute inset-0 flex items-center justify-center opacity-20 pointer-events-none">
                         <div class="w-64 h-64 border border-black rounded-full absolute"></div>
                         <div class="w-64 h-64 absolute">
-                            <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="#0F172A" stroke-width="2" fill="none" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect></svg></div>
-                            <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="#0F172A" stroke-width="2" fill="none" viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line></svg></div>
-                            <div class="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="#0F172A" stroke-width="2" fill="none" viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg></div>
-                            <div class="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="#0F172A" stroke-width="2" fill="none" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2" ry="2"></rect><circle cx="12" cy="12" r="2"></circle><line x1="6" y1="12" x2="6.01" y2="12"></line></svg></div>
+                            <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="white" stroke-width="2" fill="none" viewBox="0 0 24 24"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect></svg></div>
+                            <div class="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="white" stroke-width="2" fill="none" viewBox="0 0 24 24"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line></svg></div>
+                            <div class="absolute left-0 top-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="white" stroke-width="2" fill="none" viewBox="0 0 24 24"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg></div>
+                            <div class="absolute right-0 top-1/2 translate-x-1/2 -translate-y-1/2 w-8 h-8 bg-black rounded-full flex items-center justify-center"><svg width="12" height="12" stroke="white" stroke-width="2" fill="none" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="12" rx="2" ry="2"></rect><circle cx="12" cy="12" r="2"></circle><line x1="6" y1="12" x2="6.01" y2="12"></line></svg></div>
                         </div>
                         <div class="w-16 h-16 border-2 border-black rounded-xl flex items-center justify-center bg-transparent"><svg width="24" height="24" stroke="black" stroke-width="2" fill="none" viewBox="0 0 24 24"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div>
                     </div>
@@ -481,47 +481,47 @@
     </section>
 
     <!-- SECTION: The service tells you exactly what it needs (Screenshot 4) -->
-    <section class="bg-white shadow-sm border border-slate-200 py-24 px-6 lg:px-12 border-t border-slate-200">
+    <section class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] py-24 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-16 items-start">
             
             <!-- Left Side Text -->
             <div class="pt-8">
                 <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">SMM, WITHOUT THE GUESSING</div>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-6 leading-tight tracking-tight">The service tells you exactly what it needs.</h2>
-                <p class="text-slate-500 text-sm leading-relaxed mb-8 max-w-sm">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight tracking-tight">The service tells you exactly what it needs.</h2>
+                <p class="text-white/70 text-sm leading-relaxed mb-8 max-w-sm">
                     Browse by platform, read the service notes, submit only the public target requested, and keep the order details in one place.
                 </p>
-                <a href="#" class="inline-flex items-center justify-center gap-2 bg-[#0F172A] text-white font-bold text-sm px-6 py-3 rounded-full hover:bg-black transition">
+                <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-[#9ba1d0] font-bold text-white font-bold text-sm px-6 py-3 rounded-full hover:bg-white/90 hover:text-[#b8b1d9] transition">
                     Browse SMM services <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                 </a>
             </div>
 
             <!-- Right Side Dashboard Data Mock -->
-            <div class="bg-white shadow-sm border border-slate-200">
+            <div class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
                 <!-- Platform Tabs -->
                 <div class="flex gap-2 mb-10 overflow-x-auto pb-2">
-                    <button class="bg-white text-white rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0">
+                    <button class="bg-transparent text-white rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0">
                         <img src="https://ethio-viral.com/platform-logos/instagram.png" class="w-4 h-4 object-contain">
                         <span class="text-[11px] font-bold">Instagram</span>
                     </button>
-                    <button class="bg-white shadow-sm border border-slate-200 border border-slate-200 text-[#0F172A] rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-white/5 transition">
+                    <button class="bg-white shadow-sm border border-white/20 border border-white/20 text-white rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-transparent/5 transition">
                         <img src="https://ethio-viral.com/platform-logos/tiktok_logo.jpg" class="w-4 h-4 rounded object-cover">
                         <span class="text-[11px] font-bold">TikTok</span>
                     </button>
-                    <button class="bg-white shadow-sm border border-slate-200 border border-slate-200 text-[#0F172A] rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-white/5 transition">
+                    <button class="bg-white shadow-sm border border-white/20 border border-white/20 text-white rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-transparent/5 transition">
                         <img src="https://ethio-viral.com/platform-logos/youtube_logo.png" class="w-4 h-4 object-contain">
                         <span class="text-[11px] font-bold">YouTube</span>
                     </button>
-                    <button class="bg-white shadow-sm border border-slate-200 border border-slate-200 text-[#0F172A] rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-white/5 transition">
+                    <button class="bg-white shadow-sm border border-white/20 border border-white/20 text-white rounded-full px-4 py-2 flex items-center gap-2 flex-shrink-0 hover:bg-transparent/5 transition">
                         <img src="https://ethio-viral.com/platform-logos/telegram_logo.png" class="w-4 h-4 object-contain">
                         <span class="text-[11px] font-bold">Telegram</span>
                     </button>
                 </div>
 
-                <div class="flex justify-between items-end mb-8 border-b border-slate-200 pb-6">
+                <div class="flex justify-between items-end mb-8 border-b border-white/20 pb-6">
                     <div>
-                        <div class="text-[10px] text-slate-400 font-bold mb-1">Selected platform</div>
-                        <h3 class="text-3xl font-extrabold text-[#0F172A]">Instagram</h3>
+                        <div class="text-[10px] text-white/60 font-bold mb-1">Selected platform</div>
+                        <h3 class="text-3xl font-extrabold text-white">Instagram</h3>
                     </div>
                     <img src="https://ethio-viral.com/platform-logos/instagram.png" class="w-8 h-8 object-contain opacity-80">
                 </div>
@@ -529,40 +529,40 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
                     <!-- Available Service Types -->
                     <div>
-                        <div class="text-[10px] text-slate-400 font-bold tracking-widest uppercase mb-4">AVAILABLE SERVICE TYPES</div>
+                        <div class="text-[10px] text-white/60 font-bold tracking-widest uppercase mb-4">AVAILABLE SERVICE TYPES</div>
                         <ul class="space-y-4">
-                            <li class="flex justify-between items-center text-sm font-bold text-slate-600 border-b border-slate-200 pb-3">Followers <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
-                            <li class="flex justify-between items-center text-sm font-bold text-slate-600 border-b border-slate-200 pb-3">Likes <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
-                            <li class="flex justify-between items-center text-sm font-bold text-slate-600 border-b border-slate-200 pb-3">Reels views <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
-                            <li class="flex justify-between items-center text-sm font-bold text-slate-600 border-b border-slate-200 pb-3">Story views <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
+                            <li class="flex justify-between items-center text-sm font-bold text-white/80 border-b border-white/20 pb-3">Followers <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
+                            <li class="flex justify-between items-center text-sm font-bold text-white/80 border-b border-white/20 pb-3">Likes <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
+                            <li class="flex justify-between items-center text-sm font-bold text-white/80 border-b border-white/20 pb-3">Reels views <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
+                            <li class="flex justify-between items-center text-sm font-bold text-white/80 border-b border-white/20 pb-3">Story views <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg></li>
                         </ul>
                     </div>
 
                     <!-- What you provide -->
                     <div>
-                        <div class="text-[10px] text-slate-400 font-bold tracking-widest uppercase mb-4">WHAT YOU PROVIDE</div>
-                        <div class="bg-white shadow-sm border border-slate-200 border border-blue-200 rounded-xl p-5 mb-3 shadow-lg">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="mb-3"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                            <h4 class="text-[#0F172A] font-bold text-sm mb-1">Public target only</h4>
-                            <p class="text-[11px] text-slate-500">Profile, post, reel, or story link</p>
+                        <div class="text-[10px] text-white/60 font-bold tracking-widest uppercase mb-4">WHAT YOU PROVIDE</div>
+                        <div class="bg-white/20 backdrop-blur-xl border border-white/40 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] rounded-xl p-5 mb-3 shadow-lg">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="mb-3"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                            <h4 class="text-white font-bold text-sm mb-1">Public target only</h4>
+                            <p class="text-[11px] text-white/70">Profile, post, reel, or story link</p>
                         </div>
-                        <p class="text-[10px] text-slate-400 font-medium">Never enter a social account password.</p>
+                        <p class="text-[10px] text-white/60 font-medium">Never enter a social account password.</p>
                     </div>
                 </div>
 
                 <!-- Footer Process Row -->
-                <div class="grid grid-cols-3 gap-4 border-t border-slate-200 pt-6">
+                <div class="grid grid-cols-3 gap-4 border-t border-white/20 pt-6">
                     <div>
                         <div class="text-blue-600 text-[10px] font-bold mb-1">Before</div>
-                        <div class="text-[11px] text-slate-600 font-bold">Requirements and rate</div>
+                        <div class="text-[11px] text-white/80 font-bold">Requirements and rate</div>
                     </div>
                     <div>
                         <div class="text-blue-600 text-[10px] font-bold mb-1">During</div>
-                        <div class="text-[11px] text-slate-600 font-bold">Status and progress</div>
+                        <div class="text-[11px] text-white/80 font-bold">Status and progress</div>
                     </div>
                     <div>
                         <div class="text-blue-600 text-[10px] font-bold mb-1">After</div>
-                        <div class="text-[11px] text-slate-600 font-bold">Final result and refill eligibility</div>
+                        <div class="text-[11px] text-white/80 font-bold">Final result and refill eligibility</div>
                     </div>
                 </div>
 
@@ -571,15 +571,15 @@
     </section>
 
     <!-- SECTION: Inside the Digital Store (Screenshot 1) -->
-    <section class="bg-white py-24 px-6 lg:px-12 border-t border-slate-200">
+    <section class="bg-transparent py-24 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-7xl mx-auto">
             <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-12 gap-8">
                 <div class="max-w-2xl">
                     <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">INSIDE THE DIGITAL STORE</div>
-                    <h2 class="text-4xl md:text-5xl font-extrabold text-[#0F172A] leading-tight tracking-tight">Products for a number, an account,<br>or a code.</h2>
+                    <h2 class="text-4xl md:text-5xl font-extrabold text-white leading-tight tracking-tight">Products for a number, an account,<br>or a code.</h2>
                 </div>
                 <div class="max-w-sm">
-                    <p class="text-slate-500 text-sm leading-relaxed mb-4 font-medium">
+                    <p class="text-white/70 text-sm leading-relaxed mb-4 font-medium">
                         Every product page asks for the recipient detail required by that product. The same detail remains visible in the order afterward.
                     </p>
                     <a href="#" class="text-blue-600 font-bold text-sm hover:underline flex items-center gap-1">
@@ -589,87 +589,87 @@
             </div>
 
             <!-- List of Products -->
-            <div class="border-t border-slate-200">
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
+            <div class="border-t border-white/20">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-transparent/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">01</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">01</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">Mobile recharge</h3>
+                        <h3 class="text-white font-bold text-lg">Mobile recharge</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Airtime and direct top-up</span>
+                        <span class="text-white/70 text-sm font-medium">Airtime and direct top-up</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" class="group-hover:stroke-[#0F172A] transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
 
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl bg-white/5">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-white/20 transition cursor-pointer px-4 -mx-4 rounded-xl bg-transparent/5">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">02</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">02</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"></path><path d="M1.42 9a16 16 0 0 1 21.16 0"></path><path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path><line x1="12" y1="20" x2="12.01" y2="20"></line></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">Data bundles</h3>
+                        <h3 class="text-white font-bold text-lg">Data bundles</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Ethio Telecom packages</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" class="transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                        <span class="text-white/70 text-sm font-medium">Ethio Telecom packages</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" class="transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
 
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-transparent/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">03</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">03</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">Mobile gaming</h3>
+                        <h3 class="text-white font-bold text-lg">Mobile gaming</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Player and server ID delivery</span>
+                        <span class="text-white/70 text-sm font-medium">Player and server ID delivery</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" class="group-hover:stroke-[#0F172A] transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
 
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-transparent/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">04</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">04</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">Gift cards</h3>
+                        <h3 class="text-white font-bold text-lg">Gift cards</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Codes with secure reveal</span>
+                        <span class="text-white/70 text-sm font-medium">Codes with secure reveal</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" class="group-hover:stroke-[#0F172A] transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
 
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-transparent/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">05</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">05</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">Streaming</h3>
+                        <h3 class="text-white font-bold text-lg">Streaming</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Video and music subscriptions</span>
+                        <span class="text-white/70 text-sm font-medium">Video and music subscriptions</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" class="group-hover:stroke-[#0F172A] transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
 
-                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-slate-200 hover:bg-white/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
+                <div class="group flex flex-col sm:flex-row sm:items-center justify-between py-6 border-b border-white/20 hover:bg-transparent/5 transition cursor-pointer px-4 -mx-4 rounded-xl">
                     <div class="flex items-center gap-6 mb-2 sm:mb-0">
-                        <span class="text-[10px] text-slate-400 font-bold w-4">06</span>
-                        <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center bg-white shadow-sm border border-slate-200">
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                        <span class="text-[10px] text-white/60 font-bold w-4">06</span>
+                        <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
                         </div>
-                        <h3 class="text-[#0F172A] font-bold text-lg">eSIM and travel</h3>
+                        <h3 class="text-white font-bold text-lg">eSIM and travel</h3>
                     </div>
                     <div class="flex items-center justify-between sm:justify-end gap-12 w-full sm:w-auto">
-                        <span class="text-slate-500 text-sm font-medium">Digital connectivity products</span>
+                        <span class="text-white/70 text-sm font-medium">Digital connectivity products</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" class="group-hover:stroke-[#0F172A] transition"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </div>
                 </div>
@@ -678,69 +678,69 @@
     </section>
 
     <!-- SECTION: Check the recipient before and after delivery (Screenshot 2) -->
-    <section class="bg-slate-50 py-24 px-6 lg:px-12 border-t border-slate-200">
+    <section class="bg-transparent py-24 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-16 items-center">
             
             <!-- Left Side Text -->
             <div>
                 <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">ONE ORDER RECORD</div>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-6 leading-[1.1] tracking-tight">Check the recipient before and after delivery.</h2>
-                <p class="text-slate-500 text-sm leading-relaxed mb-10 max-w-md font-medium">
+                <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight">Check the recipient before and after delivery.</h2>
+                <p class="text-white/70 text-sm leading-relaxed mb-10 max-w-md font-medium">
                     Phone number, email, player ID, account ID, amount, quantity, and delivery data stay attached to the order. You do not need to search a provider dashboard to confirm what was submitted.
                 </p>
                 
                 <div class="grid grid-cols-2 gap-y-6 gap-x-4">
                     <div class="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
-                        <span class="text-[#0F172A] text-xs font-bold">One protected checkout</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+                        <span class="text-white text-xs font-bold">One protected checkout</span>
                     </div>
                     <div class="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
-                        <span class="text-[#0F172A] text-xs font-bold">Provider status sync</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+                        <span class="text-white text-xs font-bold">Provider status sync</span>
                     </div>
                     <div class="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect><line x1="6" y1="8" x2="6.01" y2="8"></line><line x1="10" y1="8" x2="10.01" y2="8"></line><line x1="14" y1="8" x2="14.01" y2="8"></line></svg>
-                        <span class="text-[#0F172A] text-xs font-bold">Saved ETB charge</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"></rect><line x1="6" y1="8" x2="6.01" y2="8"></line><line x1="10" y1="8" x2="10.01" y2="8"></line><line x1="14" y1="8" x2="14.01" y2="8"></line></svg>
+                        <span class="text-white text-xs font-bold">Saved ETB charge</span>
                     </div>
                     <div class="flex items-center gap-2">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-                        <span class="text-[#0F172A] text-xs font-bold">Secure code delivery</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <span class="text-white text-xs font-bold">Secure code delivery</span>
                     </div>
                 </div>
             </div>
 
             <!-- Right Side UI Mockup -->
-            <div class="bg-white shadow-sm border border-slate-200 border border-slate-200 rounded-3xl p-8 shadow-2xl relative overflow-hidden">
+            <div class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] rounded-3xl p-8 shadow-2xl relative overflow-hidden">
                 
-                <div class="flex justify-between items-start mb-8 pb-8 border-b border-slate-200">
+                <div class="flex justify-between items-start mb-8 pb-8 border-b border-white/20">
                     <div class="flex items-center gap-4">
-                        <div class="w-10 h-10 rounded-lg bg-slate-100 flex items-center justify-center">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                        <div class="w-10 h-10 rounded-lg bg-transparent flex items-center justify-center">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
                         </div>
                         <div>
-                            <h4 class="text-[#0F172A] font-bold text-sm">Weekly Unlimited Internet</h4>
-                            <p class="text-slate-400 text-[11px] font-medium mt-0.5">Digital Store order</p>
+                            <h4 class="text-white font-bold text-sm">Weekly Unlimited Internet</h4>
+                            <p class="text-white/60 text-[11px] font-medium mt-0.5">Digital Store order</p>
                         </div>
                     </div>
-                    <div class="bg-[#0F172A]/20 text-blue-600 font-bold text-[10px] px-3 py-1.5 rounded-full border border-blue-200">Processing</div>
+                    <div class="bg-white text-[#9ba1d0] font-bold/20 text-blue-600 font-bold text-[10px] px-3 py-1.5 rounded-full border border-blue-200">Processing</div>
                 </div>
 
                 <div class="grid grid-cols-2 gap-8 mb-12">
                     <div>
-                        <div class="text-[10px] text-slate-400 font-medium mb-1.5">Recipient</div>
-                        <div class="text-[#0F172A] font-bold text-sm">+251 9** *** 356</div>
+                        <div class="text-[10px] text-white/60 font-medium mb-1.5">Recipient</div>
+                        <div class="text-white font-bold text-sm">+251 9** *** 356</div>
                     </div>
                     <div>
-                        <div class="text-[10px] text-slate-400 font-medium mb-1.5">Quantity</div>
-                        <div class="text-[#0F172A] font-bold text-sm">1 item</div>
+                        <div class="text-[10px] text-white/60 font-medium mb-1.5">Quantity</div>
+                        <div class="text-white font-bold text-sm">1 item</div>
                     </div>
                     <div>
-                        <div class="text-[10px] text-slate-400 font-medium mb-1.5">Customer price</div>
-                        <div class="text-[#0F172A] font-bold text-sm border-b border-slate-200 pb-1 inline-block">Shown in ETB</div>
+                        <div class="text-[10px] text-white/60 font-medium mb-1.5">Customer price</div>
+                        <div class="text-white font-bold text-sm border-b border-white/20 pb-1 inline-block">Shown in ETB</div>
                     </div>
                     <div>
-                        <div class="text-[10px] text-slate-400 font-medium mb-1.5">Payment</div>
-                        <div class="text-[#0F172A] font-bold text-sm border-b border-slate-200 pb-1 inline-block">Wallet debit</div>
+                        <div class="text-[10px] text-white/60 font-medium mb-1.5">Payment</div>
+                        <div class="text-white font-bold text-sm border-b border-white/20 pb-1 inline-block">Wallet debit</div>
                     </div>
                 </div>
 
@@ -748,34 +748,34 @@
                 <div class="relative pl-3 space-y-6 before:absolute before:inset-0 before:ml-[15px] before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-white/10 before:to-transparent">
                     
                     <div class="relative flex items-start gap-4">
-                        <div class="w-2.5 h-2.5 rounded-full bg-[#0F172A] ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-white text-[#9ba1d0] font-bold ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
                         <div>
-                            <div class="text-[#0F172A] font-bold text-[13px] leading-tight">Paid</div>
-                            <div class="text-slate-400 text-[11px]">Wallet debit confirmed</div>
+                            <div class="text-white font-bold text-[13px] leading-tight">Paid</div>
+                            <div class="text-white/60 text-[11px]">Wallet debit confirmed</div>
                         </div>
                     </div>
 
                     <div class="relative flex items-start gap-4">
-                        <div class="w-2.5 h-2.5 rounded-full bg-[#0F172A] ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-white text-[#9ba1d0] font-bold ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
                         <div>
-                            <div class="text-[#0F172A] font-bold text-[13px] leading-tight">Submitted</div>
-                            <div class="text-slate-400 text-[11px]">Sent once to the provider</div>
+                            <div class="text-white font-bold text-[13px] leading-tight">Submitted</div>
+                            <div class="text-white/60 text-[11px]">Sent once to the provider</div>
                         </div>
                     </div>
 
                     <div class="relative flex items-start gap-4">
-                        <div class="w-2.5 h-2.5 rounded-full bg-[#0F172A] ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
+                        <div class="w-2.5 h-2.5 rounded-full bg-white text-[#9ba1d0] font-bold ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
                         <div>
-                            <div class="text-[#0F172A] font-bold text-[13px] leading-tight">Processing</div>
-                            <div class="text-slate-400 text-[11px]">Status is being checked</div>
+                            <div class="text-white font-bold text-[13px] leading-tight">Processing</div>
+                            <div class="text-white/60 text-[11px]">Status is being checked</div>
                         </div>
                     </div>
 
                     <div class="relative flex items-start gap-4">
-                        <div class="w-2.5 h-2.5 rounded-full border-2 border-gray-600 bg-white shadow-sm border border-slate-200 ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
+                        <div class="w-2.5 h-2.5 rounded-full border-2 border-gray-600 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] ring-4 ring-[#1C1310] relative z-10 mt-1"></div>
                         <div>
-                            <div class="text-slate-500 font-bold text-[13px] leading-tight">Delivered</div>
-                            <div class="text-slate-400 text-[11px]">Recipient or code is ready</div>
+                            <div class="text-white/70 font-bold text-[13px] leading-tight">Delivered</div>
+                            <div class="text-white/60 text-[11px]">Recipient or code is ready</div>
                         </div>
                     </div>
 
@@ -786,31 +786,31 @@
     </section>
 
     <!-- SECTION: 3 Cards Grid (Screenshot 3) -->
-    <section class="bg-slate-50 py-12 px-6 lg:px-12 border-t border-slate-200">
+    <section class="bg-transparent py-12 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
             
             <!-- Card 1: One balance -->
-            <div class="bg-white shadow-sm border border-slate-200 border border-slate-200 rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col min-h-[360px]">
+            <div class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col min-h-[360px]">
                 <div class="flex justify-between items-start mb-8">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
-                    <span class="text-slate-400 text-[10px] font-bold">Wallet and payments</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    <span class="text-white/60 text-[10px] font-bold">Wallet and payments</span>
                 </div>
                 
-                <h3 class="text-2xl md:text-3xl font-bold text-[#0F172A] mb-4 leading-tight tracking-tight">One balance for SMM and Store checkout.</h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-10 max-w-md">
+                <h3 class="text-2xl md:text-3xl font-bold text-white mb-4 leading-tight tracking-tight">One balance for SMM and Store checkout.</h3>
+                <p class="text-white/70 text-sm leading-relaxed mb-10 max-w-md">
                     Wallet value is stored in USD. Customer prices and deposit amounts are displayed clearly in ETB using the server rate, with charges and refunds recorded in account history.
                 </p>
 
                 <!-- Payment Icons Row -->
                 <div class="flex flex-wrap gap-2 mb-8 mt-auto">
                     <!-- Generic shapes to represent the payment icons from the screenshot -->
-                    <div class="w-6 h-6 rounded bg-white flex items-center justify-center"><div class="w-3 h-3 bg-blue-600 rounded-sm"></div></div>
-                    <div class="w-6 h-6 rounded bg-[#0F172A] flex items-center justify-center"><div class="w-3 h-3 bg-white rounded-full"></div></div>
-                    <div class="w-6 h-6 rounded bg-yellow-500 flex items-center justify-center"><div class="w-3 h-3 bg-white"></div></div>
-                    <div class="w-6 h-6 rounded bg-blue-800 flex items-center justify-center"><div class="w-3 h-3 bg-white rounded-sm"></div></div>
-                    <div class="w-6 h-6 rounded bg-green-600 flex items-center justify-center"><div class="w-3 h-3 bg-white rounded-full"></div></div>
-                    <div class="w-6 h-6 rounded bg-black border border-slate-300 flex items-center justify-center"><div class="w-3 h-3 bg-yellow-400"></div></div>
-                    <div class="w-6 h-6 rounded bg-blue-500 flex items-center justify-center"><div class="w-3 h-3 bg-white rounded-full"></div></div>
+                    <div class="w-6 h-6 rounded bg-transparent flex items-center justify-center"><div class="w-3 h-3 bg-blue-600 rounded-sm"></div></div>
+                    <div class="w-6 h-6 rounded bg-white text-[#9ba1d0] font-bold flex items-center justify-center"><div class="w-3 h-3 bg-transparent rounded-full"></div></div>
+                    <div class="w-6 h-6 rounded bg-yellow-500 flex items-center justify-center"><div class="w-3 h-3 bg-transparent"></div></div>
+                    <div class="w-6 h-6 rounded bg-blue-800 flex items-center justify-center"><div class="w-3 h-3 bg-transparent rounded-sm"></div></div>
+                    <div class="w-6 h-6 rounded bg-green-600 flex items-center justify-center"><div class="w-3 h-3 bg-transparent rounded-full"></div></div>
+                    <div class="w-6 h-6 rounded bg-black border border-white/30 flex items-center justify-center"><div class="w-3 h-3 bg-yellow-400"></div></div>
+                    <div class="w-6 h-6 rounded bg-blue-500 flex items-center justify-center"><div class="w-3 h-3 bg-transparent rounded-full"></div></div>
                     <div class="w-6 h-6 rounded bg-gray-200 flex items-center justify-center"><div class="w-3 h-3 bg-black"></div></div>
                 </div>
 
@@ -820,54 +820,54 @@
             </div>
 
             <!-- Card 2: API -->
-            <div class="bg-white shadow-sm border border-slate-200 border border-slate-200 rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col min-h-[360px] bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+            <div class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col min-h-[360px]  bg-[size:24px_24px]">
                 <div class="flex justify-between items-start mb-8 relative z-10">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
-                    <span class="text-slate-400 text-[10px] font-bold">API and resellers</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                    <span class="text-white/60 text-[10px] font-bold">API and resellers</span>
                 </div>
                 
                 <!-- Code Snippet -->
                 <div class="mb-8 relative z-10 border-l-2 border-[#4ADE80]/30 pl-4 space-y-1 text-xs font-mono">
-                    <div><span class="text-blue-600">action</span><span class="text-slate-500">=services</span></div>
-                    <div><span class="text-blue-600">action</span><span class="text-slate-500">=add</span></div>
-                    <div><span class="text-blue-600">action</span><span class="text-slate-500">=status</span></div>
-                    <div><span class="text-blue-600">action</span><span class="text-slate-500">=balance</span></div>
+                    <div><span class="text-blue-600">action</span><span class="text-white/70">=services</span></div>
+                    <div><span class="text-blue-600">action</span><span class="text-white/70">=add</span></div>
+                    <div><span class="text-blue-600">action</span><span class="text-white/70">=status</span></div>
+                    <div><span class="text-blue-600">action</span><span class="text-white/70">=balance</span></div>
                 </div>
 
-                <h3 class="text-2xl md:text-3xl font-bold text-[#0F172A] mb-4 leading-tight tracking-tight relative z-10">Put repeat SMM orders behind your own workflow.</h3>
-                <p class="text-slate-500 text-sm leading-relaxed mb-10 max-w-md relative z-10">
+                <h3 class="text-2xl md:text-3xl font-bold text-white mb-4 leading-tight tracking-tight relative z-10">Put repeat SMM orders behind your own workflow.</h3>
+                <p class="text-white/70 text-sm leading-relaxed mb-10 max-w-md relative z-10">
                     Agencies and child panels can retrieve services, place orders, check status, request refills, and read balance through the V2 API.
                 </p>
 
                 <div class="flex gap-3 mt-auto relative z-10">
-                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-[#0F172A] text-white font-bold text-[11px] px-5 py-2.5 rounded-full hover:bg-black transition">
+                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-white text-[#9ba1d0] font-bold text-white font-bold text-[11px] px-5 py-2.5 rounded-full hover:bg-white/90 hover:text-[#b8b1d9] transition">
                         Read reseller guide <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
                     </a>
-                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-transparent border border-slate-300 text-[#0F172A] font-bold text-[11px] px-5 py-2.5 rounded-full hover:bg-white/5 transition">
+                    <a href="#" class="inline-flex items-center justify-center gap-2 bg-transparent border border-white/30 text-white font-bold text-[11px] px-5 py-2.5 rounded-full hover:bg-transparent/5 transition">
                         API status
                     </a>
                 </div>
             </div>
 
             <!-- Card 3: Secure Delivery (Full width) -->
-            <div class="bg-slate-50 border border-slate-200 rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col md:flex-row justify-between items-start md:items-center min-h-[200px] col-span-1 md:col-span-2">
+            <div class="bg-transparent border border-white/20 rounded-[2rem] p-8 md:p-10 relative overflow-hidden flex flex-col md:flex-row justify-between items-start md:items-center min-h-[200px] col-span-1 md:col-span-2">
                 <div class="max-w-2xl">
                     <div class="text-blue-600 font-bold text-[10px] tracking-widest uppercase mb-3">SECURE DIGITAL DELIVERY</div>
-                    <h3 class="text-3xl font-bold text-[#0F172A] mb-3 tracking-tight">A simple link when a code is ready.</h3>
-                    <p class="text-slate-500 text-sm leading-relaxed">
+                    <h3 class="text-3xl font-bold text-white mb-3 tracking-tight">A simple link when a code is ready.</h3>
+                    <p class="text-white/70 text-sm leading-relaxed">
                         Gift cards and PIN products can be revealed through a protected Ethioviral page. The recipient can view and copy the code without seeing the upstream provider.
                     </p>
                 </div>
                 
                 <div class="flex gap-4 mt-8 md:mt-0">
-                    <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
+                    <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 12 11 14 15 10"></polyline></svg>
                     </div>
-                    <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                     </div>
-                    <div class="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line></svg>
+                    <div class="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line></svg>
                     </div>
                 </div>
             </div>
@@ -876,7 +876,7 @@
     </section>
 
     <!-- SECTION: One Catalog (Screenshot 4) -->
-    <section class="bg-slate-50 py-24 px-6 lg:px-12 overflow-hidden border-t border-slate-200">
+    <section class="bg-transparent py-24 px-6 lg:px-12 overflow-hidden border-t border-white/20">
         <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16 relative">
             
             <div class="max-w-xl relative z-20">
@@ -884,14 +884,14 @@
                 <h2 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 leading-[1.1] tracking-tight">
                     Premium tools, gift cards, top-ups, and growth — <span class="text-blue-600">all in one order.</span>
                 </h2>
-                <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-10 max-w-lg font-medium">
+                <p class="text-white/60 text-sm md:text-base leading-relaxed mb-10 max-w-lg font-medium">
                     Real products from the Ethioviral Store and real SMM rates — browse the catalog, pick what you need, and check out with the same wallet.
                 </p>
                 <div class="flex gap-4">
-                    <a href="#" class="inline-flex items-center justify-center bg-[#0F172A] text-white font-bold text-sm px-6 py-3.5 rounded-full hover:bg-black transition shadow-lg shadow-green-500/20">
+                    <a href="#" class="inline-flex items-center justify-center bg-white text-[#9ba1d0] font-bold text-white font-bold text-sm px-6 py-3.5 rounded-full hover:bg-white/90 hover:text-[#b8b1d9] transition shadow-lg shadow-green-500/20">
                         Browse Digital Store
                     </a>
-                    <a href="#" class="inline-flex items-center justify-center bg-white border border-slate-300 text-[#0F172A] hover:bg-slate-50 font-bold text-sm px-6 py-3.5 rounded-full hover:bg-black/5 transition">
+                    <a href="#" class="inline-flex items-center justify-center bg-transparent border border-white/30 text-white hover:bg-transparent font-bold text-sm px-6 py-3.5 rounded-full hover:bg-white/90 hover:text-[#b8b1d9]/5 transition">
                         Explore SMM Services
                     </a>
                 </div>
@@ -901,49 +901,49 @@
             <div class="relative w-full lg:w-1/2 h-[400px] z-10">
                 <!-- A CSS representation of the flying product cards -->
                 <div class="absolute right-0 top-1/2 -translate-y-1/2 w-full h-[500px]">
-                    <div class="absolute right-[20%] top-[10%] w-32 h-40 bg-teal-800 rounded-xl shadow-2xl transform rotate-[-15deg] overflow-hidden border border-slate-300">
+                    <div class="absolute right-[20%] top-[10%] w-32 h-40 bg-teal-800 rounded-xl shadow-2xl transform rotate-[-15deg] overflow-hidden border border-white/30">
                         <div class="w-full h-2/3 bg-teal-500 flex items-center justify-center">
-                            <span class="text-5xl font-bold text-[#0F172A] italic">C</span>
+                            <span class="text-5xl font-bold text-white italic">C</span>
                         </div>
-                        <div class="p-2 bg-white shadow-sm border border-slate-200">
-                            <div class="text-[#0F172A] text-[10px] font-bold">Canva</div>
-                            <div class="text-slate-500 text-[8px]">Premium</div>
+                        <div class="p-2 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <div class="text-white text-[10px] font-bold">Canva</div>
+                            <div class="text-white/70 text-[8px]">Premium</div>
                         </div>
                     </div>
                     
-                    <div class="absolute right-[40%] top-[5%] w-32 h-40 bg-black rounded-xl shadow-2xl transform rotate-[5deg] overflow-hidden border border-slate-300">
+                    <div class="absolute right-[40%] top-[5%] w-32 h-40 bg-black rounded-xl shadow-2xl transform rotate-[5deg] overflow-hidden border border-white/30">
                         <div class="w-full h-2/3 bg-gray-900 flex items-center justify-center">
                             <svg width="40" height="40" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>
                         </div>
                     </div>
 
-                    <div class="absolute right-[10%] top-[40%] w-32 h-40 bg-red-900 rounded-xl shadow-2xl transform rotate-[10deg] overflow-hidden border border-slate-300 z-20">
+                    <div class="absolute right-[10%] top-[40%] w-32 h-40 bg-red-900 rounded-xl shadow-2xl transform rotate-[10deg] overflow-hidden border border-white/30 z-20">
                         <div class="w-full h-2/3 bg-black flex items-center justify-center relative">
                             <span class="text-3xl font-black text-red-600 tracking-tighter">NETFLIX</span>
                         </div>
-                        <div class="p-2 bg-white shadow-sm border border-slate-200">
-                            <div class="text-[#0F172A] text-[10px] font-bold">Netflix</div>
-                            <div class="text-slate-500 text-[8px]">$25</div>
+                        <div class="p-2 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <div class="text-white text-[10px] font-bold">Netflix</div>
+                            <div class="text-white/70 text-[8px]">$25</div>
                         </div>
                     </div>
 
-                    <div class="absolute right-[35%] top-[50%] w-36 h-44 bg-purple-900 rounded-xl shadow-2xl transform rotate-[-5deg] overflow-hidden border border-slate-300 z-30">
+                    <div class="absolute right-[35%] top-[50%] w-36 h-44 bg-purple-900 rounded-xl shadow-2xl transform rotate-[-5deg] overflow-hidden border border-white/30 z-30">
                         <div class="w-full h-2/3 bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center">
-                            <div class="w-12 h-12 bg-white rounded-2xl"></div>
+                            <div class="w-12 h-12 bg-transparent rounded-2xl"></div>
                         </div>
-                        <div class="p-3 bg-white shadow-sm border border-slate-200">
-                            <div class="text-[#0F172A] text-[12px] font-bold">CapCut</div>
-                            <div class="text-slate-500 text-[10px]">$16.40</div>
+                        <div class="p-3 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <div class="text-white text-[12px] font-bold">CapCut</div>
+                            <div class="text-white/70 text-[10px]">$16.40</div>
                         </div>
                     </div>
 
-                    <div class="absolute right-[5%] bottom-[10%] w-32 h-40 bg-green-900 rounded-xl shadow-2xl transform rotate-[15deg] overflow-hidden border border-slate-300 z-40">
+                    <div class="absolute right-[5%] bottom-[10%] w-32 h-40 bg-green-900 rounded-xl shadow-2xl transform rotate-[15deg] overflow-hidden border border-white/30 z-40">
                         <div class="w-full h-2/3 bg-black flex items-center justify-center">
                             <img src="https://ethio-viral.com/platform-logos/tiktok_logo.jpg" class="w-12 h-12 rounded">
                         </div>
-                        <div class="p-2 bg-white shadow-sm border border-slate-200">
-                            <div class="text-[#0F172A] text-[10px] font-bold">TikTok</div>
-                            <div class="text-slate-500 text-[8px]">Followers — $0.60/1K</div>
+                        <div class="p-2 bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)]">
+                            <div class="text-white text-[10px] font-bold">TikTok</div>
+                            <div class="text-white/70 text-[8px]">Followers — $0.60/1K</div>
                         </div>
                     </div>
                 </div>
@@ -952,48 +952,48 @@
     </section>
 
     <!-- SECTION: Frequently Asked Questions (Accordion) -->
-    <section class="bg-white py-24 px-6 lg:px-12 border-t border-slate-200">
+    <section class="bg-transparent py-24 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-4xl mx-auto">
             <div class="mb-12">
-                <h2 class="text-3xl md:text-5xl font-bold mb-4 text-[#0F172A] tracking-tight">Frequently asked questions</h2>
-                <p class="text-slate-500 text-sm">SMM services, Store delivery, payments, and order tracking.</p>
+                <h2 class="text-3xl md:text-5xl font-bold mb-4 text-white tracking-tight">Frequently asked questions</h2>
+                <p class="text-white/70 text-sm">SMM services, Store delivery, payments, and order tracking.</p>
             </div>
 
-            <div class="space-y-0 border-t border-slate-200">
+            <div class="space-y-0 border-t border-white/20">
                 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">What do I enter for an SMM order?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">What do I enter for an SMM order?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
                 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">What can I buy from the Store?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">What can I buy from the Store?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
                 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">Where can I verify the phone number, email, or player ID?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">Where can I verify the phone number, email, or player ID?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
                 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">How are gift cards and digital codes delivered?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">How are gift cards and digital codes delivered?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">How does the wallet handle ETB and USD?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">How does the wallet handle ETB and USD?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">What happens when an order is still processing?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">What happens when an order is still processing?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
 
-                <div class="border-b border-slate-200 py-6 flex justify-between items-center cursor-pointer group">
-                    <h3 class="font-bold text-lg md:text-xl text-[#0F172A] group-hover:text-blue-600 transition">Do you provide API access for resellers?</h3>
-                    <span class="text-slate-400 text-2xl group-hover:text-blue-600 transition">+</span>
+                <div class="border-b border-white/20 py-6 flex justify-between items-center cursor-pointer group">
+                    <h3 class="font-bold text-lg md:text-xl text-white group-hover:text-blue-600 transition">Do you provide API access for resellers?</h3>
+                    <span class="text-white/60 text-2xl group-hover:text-blue-600 transition">+</span>
                 </div>
 
             </div>
@@ -1005,17 +1005,17 @@
     </section>
 
     <!-- SECTION: What do you need today? -->
-    <section class="bg-slate-100 py-32 px-6 lg:px-12 text-center bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
+    <section class="bg-transparent py-32 px-6 lg:px-12 text-center  bg-[size:24px_24px]">
         <div class="max-w-3xl mx-auto">
             <h2 class="text-5xl md:text-7xl font-bold text-[#1C1715] mb-6 tracking-tight">What do you need today?</h2>
-            <p class="text-slate-400 text-lg md:text-xl mb-12">
+            <p class="text-white/60 text-lg md:text-xl mb-12">
                 Choose a social media service or browse digital products. Both use the same Ethioviral account and wallet.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="#" class="bg-[#0F172A] text-white font-bold text-base px-8 py-4 rounded-full shadow-lg hover:bg-black transition">
+                <a href="#" class="bg-white text-[#9ba1d0] font-bold text-white font-bold text-base px-8 py-4 rounded-full shadow-lg hover:bg-white/90 hover:text-[#b8b1d9] transition">
                     Explore SMM Services
                 </a>
-                <a href="#" class="bg-white border border-slate-300 text-[#0F172A] hover:bg-slate-50 font-bold text-base px-8 py-4 rounded-full hover:bg-black/5 transition">
+                <a href="#" class="bg-transparent border border-white/30 text-white hover:bg-transparent font-bold text-base px-8 py-4 rounded-full hover:bg-white/90 hover:text-[#b8b1d9]/5 transition">
                     Browse Digital Store
                 </a>
             </div>
@@ -1023,35 +1023,35 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="bg-white pt-20 pb-12 px-6 lg:px-12 border-t border-slate-200">
+    <footer class="bg-transparent pt-20 pb-12 px-6 lg:px-12 border-t border-white/20">
         <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-[1.5fr_2.5fr] gap-16">
             
             <!-- Left Column -->
             <div>
-                <div class="flex items-center gap-3 font-bold text-2xl text-[#0F172A] mb-6">
+                <div class="flex items-center gap-3 font-bold text-2xl text-white mb-6">
                     <img src="logo.png" alt="Ethioviral Logo" class="w-8 h-8 rounded-lg shadow-sm">
                     Ethioviral
                 </div>
-                <p class="text-slate-500 text-sm leading-relaxed mb-8 max-w-sm">
+                <p class="text-white/70 text-sm leading-relaxed mb-8 max-w-sm">
                     Order social media services, recharge phones, buy gaming credit, and receive digital products — all from one Ethioviral account.
                 </p>
                 
                 <!-- Social Icons -->
                 <div class="flex gap-4 mb-12">
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
-                    <a href="#" class="text-slate-400 hover:text-[#0F172A] transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path></svg></a>
+                    <a href="#" class="text-white/60 hover:text-white transition"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a>
                 </div>
 
                 <div>
-                    <h4 class="text-[#0F172A] text-[10px] font-bold tracking-widest uppercase mb-2">STAY UPDATED</h4>
-                    <p class="text-slate-400 text-xs mb-4">Platform updates, new features, and growth tips.</p>
+                    <h4 class="text-white text-[10px] font-bold tracking-widest uppercase mb-2">STAY UPDATED</h4>
+                    <p class="text-white/60 text-xs mb-4">Platform updates, new features, and growth tips.</p>
                     <div class="flex gap-2">
-                        <input type="email" placeholder="Enter your email" class="bg-white shadow-sm border border-slate-200 border border-slate-200 rounded-full px-4 py-2 text-sm text-[#0F172A] focus:outline-none focus:border-[#4ADE80] w-full max-w-[220px]">
-                        <button class="bg-[#0F172A] text-white font-bold text-sm px-6 py-2 rounded-full hover:bg-black transition whitespace-nowrap">Subscribe</button>
+                        <input type="email" placeholder="Enter your email" class="bg-white/20 backdrop-blur-xl border border-white/30 shadow-[0_8px_32px_0_rgba(31,38,135,0.1)] rounded-full px-4 py-2 text-sm text-white focus:outline-none focus:border-[#4ADE80] w-full max-w-[220px]">
+                        <button class="bg-white text-[#9ba1d0] font-bold text-white font-bold text-sm px-6 py-2 rounded-full hover:bg-white/90 hover:text-[#b8b1d9] transition whitespace-nowrap">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -1059,48 +1059,48 @@
             <!-- Right Columns -->
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div>
-                    <h4 class="text-[#0F172A] text-xs font-bold mb-6">Services</h4>
-                    <ul class="space-y-4 text-slate-400 text-xs font-medium">
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Instagram</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">TikTok</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">YouTube</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">All Services</a></li>
+                    <h4 class="text-white text-xs font-bold mb-6">Services</h4>
+                    <ul class="space-y-4 text-white/60 text-xs font-medium">
+                        <li><a href="#" class="hover:text-white transition">Instagram</a></li>
+                        <li><a href="#" class="hover:text-white transition">TikTok</a></li>
+                        <li><a href="#" class="hover:text-white transition">YouTube</a></li>
+                        <li><a href="#" class="hover:text-white transition">All Services</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-[#0F172A] text-xs font-bold mb-6">Platform</h4>
-                    <ul class="space-y-4 text-slate-400 text-xs font-medium">
-                        <li><a href="#" class="hover:text-[#0F172A] transition">New Order</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Add Funds</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">My Orders</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">API Access</a></li>
+                    <h4 class="text-white text-xs font-bold mb-6">Platform</h4>
+                    <ul class="space-y-4 text-white/60 text-xs font-medium">
+                        <li><a href="#" class="hover:text-white transition">New Order</a></li>
+                        <li><a href="#" class="hover:text-white transition">Add Funds</a></li>
+                        <li><a href="#" class="hover:text-white transition">My Orders</a></li>
+                        <li><a href="#" class="hover:text-white transition">API Access</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-[#0F172A] text-xs font-bold mb-6">Programs</h4>
-                    <ul class="space-y-4 text-slate-400 text-xs font-medium">
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Reseller</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Affiliate</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Giveaway</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Gift Card Store</a></li>
+                    <h4 class="text-white text-xs font-bold mb-6">Programs</h4>
+                    <ul class="space-y-4 text-white/60 text-xs font-medium">
+                        <li><a href="#" class="hover:text-white transition">Reseller</a></li>
+                        <li><a href="#" class="hover:text-white transition">Affiliate</a></li>
+                        <li><a href="#" class="hover:text-white transition">Giveaway</a></li>
+                        <li><a href="#" class="hover:text-white transition">Gift Card Store</a></li>
                     </ul>
                 </div>
                 <div>
-                    <h4 class="text-[#0F172A] text-xs font-bold mb-6">Support</h4>
-                    <ul class="space-y-4 text-slate-400 text-xs font-medium">
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Help Center</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">FAQ</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Updates</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Getting Started</a></li>
+                    <h4 class="text-white text-xs font-bold mb-6">Support</h4>
+                    <ul class="space-y-4 text-white/60 text-xs font-medium">
+                        <li><a href="#" class="hover:text-white transition">Help Center</a></li>
+                        <li><a href="#" class="hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition">Updates</a></li>
+                        <li><a href="#" class="hover:text-white transition">Getting Started</a></li>
                     </ul>
                 </div>
-                <div class="col-span-2 md:col-span-4 mt-8 pt-8 border-t border-slate-200">
-                    <h4 class="text-[#0F172A] text-xs font-bold mb-6">Legal</h4>
-                    <ul class="flex flex-wrap gap-6 text-slate-400 text-xs font-medium">
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Terms</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Privacy</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Refund Policy</a></li>
-                        <li><a href="#" class="hover:text-[#0F172A] transition">Cookies</a></li>
+                <div class="col-span-2 md:col-span-4 mt-8 pt-8 border-t border-white/20">
+                    <h4 class="text-white text-xs font-bold mb-6">Legal</h4>
+                    <ul class="flex flex-wrap gap-6 text-white/60 text-xs font-medium">
+                        <li><a href="#" class="hover:text-white transition">Terms</a></li>
+                        <li><a href="#" class="hover:text-white transition">Privacy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Refund Policy</a></li>
+                        <li><a href="#" class="hover:text-white transition">Cookies</a></li>
                     </ul>
                 </div>
             </div>
