@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - EthioViral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0E1116; color: white; }
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0E1116; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Floating Glass Navbar -->
+    <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl h-16 bg-black/40 backdrop-blur-xl border border-white/10 rounded-full flex items-center justify-between px-4 lg:px-8 z-50 shadow-2xl">
+        <!-- Logo -->
+        <a href="index.html" class="flex items-center gap-2 font-bold text-lg tracking-wide text-white">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L3 6V12C3 17.55 6.84 22.74 12 24C17.16 22.74 21 17.55 21 12V6L12 2Z" fill="#10B981"/>
+                <path d="M10.5 16.5L6.5 12.5L7.91 11.09L10.5 13.67L16.09 8.09L17.5 9.5L10.5 16.5Z" fill="white"/>
+            </svg>
+            ETHIOVIRAL
+        </a>
+        
+        <!-- Center Links -->
+        <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-400">
+            <a href="index.html" class="hover:text-white transition">Home</a>
+            <a href="services.html" class="bg-white/10 text-white px-4 py-1.5 rounded-full">Services</a>
+            <a href="pricing.html" class="hover:text-white transition">Pricing</a>
+            <a href="api.html" class="hover:text-white transition">API</a>
+        </div>
+
+        <!-- CTA Button -->
+        <a href="index.html#services" class="bg-white hover:bg-gray-100 text-black text-sm font-semibold px-6 py-2.5 rounded-full transition shadow-lg">
+            Order Now
+        </a>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="relative pt-40 pb-20 px-6 max-w-7xl mx-auto">
+        <!-- Soft glow -->
+        <div class="absolute top-20 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-[#10B981] rounded-full mix-blend-screen filter blur-[150px] opacity-10 pointer-events-none"></div>
+        
+        <div class="text-center relative z-10">
+            <h1 class="text-4xl md:text-6xl font-light tracking-[0.2em] mb-6">SERVICES</h1>
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto mb-12">Browse our complete catalog of social media growth services. High quality, instant delivery, and the cheapest rates in Ethiopia.</p>
+            
+            <!-- Search & Filter Bar -->
+            <div class="flex flex-col md:flex-row gap-4 max-w-3xl mx-auto">
+                <div class="flex-1 relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    </div>
+                    <input type="text" placeholder="Search for services (e.g., Instagram Followers)..." class="w-full bg-white/5 border border-white/10 rounded-2xl py-4 pl-12 pr-4 text-white focus:outline-none focus:border-[#10B981] transition">
+                </div>
+                <select class="bg-white/5 border border-white/10 rounded-2xl py-4 px-6 text-white focus:outline-none focus:border-[#10B981] transition appearance-none cursor-pointer">
+                    <option class="bg-[#151921]">All Categories</option>
+                    <option class="bg-[#151921]">Instagram Services</option>
+                    <option class="bg-[#151921]">TikTok Services</option>
+                    <option class="bg-[#151921]">YouTube Services</option>
+                    <option class="bg-[#151921]">Telegram Services</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Table -->
+    <section class="px-6 pb-32 max-w-7xl mx-auto">
+        <div class="bg-white/[0.02] border border-white/10 rounded-[2rem] overflow-hidden backdrop-blur-md shadow-2xl">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-white/5 text-xs uppercase tracking-wider text-gray-400 border-b border-white/10">
+                            <th class="py-5 px-6 font-semibold w-24">ID</th>
+                            <th class="py-5 px-6 font-semibold">Service Name</th>
+                            <th class="py-5 px-6 font-semibold text-right">Rate per 1000</th>
+                            <th class="py-5 px-6 font-semibold text-right">Min / Max</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-sm divide-y divide-white/5">
+                        <tr class="hover:bg-white/5 transition group cursor-default">
+                            <td class="py-5 px-6 text-gray-500 group-hover:text-white">1042</td>
+                            <td class="py-5 px-6">
+                                <div class="font-medium text-white mb-1">Instagram Followers ~ Premium Guaranteed</div>
+                                <div class="text-xs text-[#10B981]">Start Time: Instant • Refill: 30 Days</div>
+                            </td>
+                            <td class="py-5 px-6 text-right font-bold text-white">$1.50</td>
+                            <td class="py-5 px-6 text-right text-gray-400">100 / 500,000</td>
+                        </tr>
+                        <tr class="hover:bg-white/5 transition group cursor-default">
+                            <td class="py-5 px-6 text-gray-500 group-hover:text-white">2091</td>
+                            <td class="py-5 px-6">
+                                <div class="font-medium text-white mb-1">TikTok Views ~ Global FAST</div>
+                                <div class="text-xs text-gray-400">Start Time: Instant • Speed: 1M/Day</div>
+                            </td>
+                            <td class="py-5 px-6 text-right font-bold text-white">$0.02</td>
+                            <td class="py-5 px-6 text-right text-gray-400">100 / 10,000,000</td>
+                        </tr>
+                        <tr class="hover:bg-white/5 transition group cursor-default">
+                            <td class="py-5 px-6 text-gray-500 group-hover:text-white">5192</td>
+                            <td class="py-5 px-6">
+                                <div class="font-medium text-white mb-1">SEO and Backlinks Services ~ .EDU Mix</div>
+                                <div class="text-xs text-gray-400">Start Time: 0-12 Hours</div>
+                            </td>
+                            <td class="py-5 px-6 text-right font-bold text-white">$11.00</td>
+                            <td class="py-5 px-6 text-right text-gray-400">50 / 100,000</td>
+                        </tr>
+                        <tr class="hover:bg-white/5 transition group cursor-default">
+                            <td class="py-5 px-6 text-gray-500 group-hover:text-white">9754</td>
+                            <td class="py-5 px-6">
+                                <div class="font-medium text-white mb-1">Audiomack Monthly Listeners</div>
+                                <div class="text-xs text-gray-400">Start Time: 0-6 Hours • Refill: Non Drop</div>
+                            </td>
+                            <td class="py-5 px-6 text-right font-bold text-white">$24.49</td>
+                            <td class="py-5 px-6 text-right text-gray-400">1,000 / 100,000</td>
+                        </tr>
+                        <tr class="hover:bg-white/5 transition group cursor-default">
+                            <td class="py-5 px-6 text-gray-500 group-hover:text-white">3159</td>
+                            <td class="py-5 px-6">
+                                <div class="font-medium text-white mb-1">Canada Website Traffic ~ From Amazon.ca</div>
+                                <div class="text-xs text-gray-400">Speed: 10K/Day • No Refill</div>
+                            </td>
+                            <td class="py-5 px-6 text-right font-bold text-white">$1.02</td>
+                            <td class="py-5 px-6 text-right text-gray-400">500 / 50,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="py-6 text-center border-t border-white/5">
+                <p class="text-sm text-gray-500 mb-4">Showing 5 of 4,200+ active services</p>
+                <button class="text-[#10B981] text-sm font-semibold hover:text-white transition">Load More Services</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

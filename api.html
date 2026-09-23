@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Documentation - EthioViral</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0E1116; color: white; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Floating Glass Navbar -->
+    <nav class="fixed top-6 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl h-16 bg-black/40 backdrop-blur-xl border border-white/10 rounded-full flex items-center justify-between px-4 lg:px-8 z-50 shadow-2xl">
+        <a href="index.html" class="flex items-center gap-2 font-bold text-lg tracking-wide text-white">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L3 6V12C3 17.55 6.84 22.74 12 24C17.16 22.74 21 17.55 21 12V6L12 2Z" fill="#10B981"/><path d="M10.5 16.5L6.5 12.5L7.91 11.09L10.5 13.67L16.09 8.09L17.5 9.5L10.5 16.5Z" fill="white"/></svg>
+            ETHIOVIRAL
+        </a>
+        <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-400">
+            <a href="index.html" class="hover:text-white transition">Home</a>
+            <a href="services.html" class="hover:text-white transition">Services</a>
+            <a href="pricing.html" class="hover:text-white transition">Pricing</a>
+            <a href="api.html" class="bg-white/10 text-white px-4 py-1.5 rounded-full">API</a>
+        </div>
+        <a href="index.html#services" class="bg-white hover:bg-gray-100 text-black text-sm font-semibold px-6 py-2.5 rounded-full transition">Order Now</a>
+    </nav>
+
+    <!-- Content -->
+    <section class="pt-40 pb-32 px-6 max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-light tracking-[0.2em] mb-4 text-center">API V2</h1>
+        <p class="text-gray-400 text-center mb-16">Integrate EthioViral directly into your own SMM panel or application.</p>
+
+        <div class="bg-white/[0.02] border border-white/10 rounded-[2rem] p-8 md:p-12 shadow-2xl">
+            <h2 class="text-2xl font-bold mb-6">Service List</h2>
+            <p class="text-gray-400 text-sm mb-4">Returns a list of all available services.</p>
+            
+            <div class="bg-black/50 border border-white/5 rounded-xl p-4 mb-10 overflow-x-auto font-mono text-sm text-gray-300">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="bg-[#10B981]/20 text-[#10B981] font-bold px-2 py-1 rounded">POST</span>
+                    <span class="text-white">https://ethio-viral.com/api/v2</span>
+                </div>
+                <code>
+{<br>
+&nbsp;&nbsp;"key": "YOUR_API_KEY",<br>
+&nbsp;&nbsp;"action": "services"<br>
+}
+                </code>
+            </div>
+
+            <h2 class="text-2xl font-bold mb-6">Add Order</h2>
+            <p class="text-gray-400 text-sm mb-4">Place a new order programmatically.</p>
+            
+            <div class="bg-black/50 border border-white/5 rounded-xl p-4 overflow-x-auto font-mono text-sm text-gray-300">
+                <div class="flex items-center gap-4 mb-4">
+                    <span class="bg-[#10B981]/20 text-[#10B981] font-bold px-2 py-1 rounded">POST</span>
+                    <span class="text-white">https://ethio-viral.com/api/v2</span>
+                </div>
+                <code>
+{<br>
+&nbsp;&nbsp;"key": "YOUR_API_KEY",<br>
+&nbsp;&nbsp;"action": "add",<br>
+&nbsp;&nbsp;"service": 1042,<br>
+&nbsp;&nbsp;"link": "https://instagram.com/username",<br>
+&nbsp;&nbsp;"quantity": 1000<br>
+}
+                </code>
+            </div>
+            
+            <div class="mt-12 text-center">
+                <button class="text-[#10B981] font-semibold hover:text-white transition underline decoration-[#10B981]/30 underline-offset-4">Download Postman Collection</button>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
