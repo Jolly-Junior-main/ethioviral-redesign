@@ -1,127 +1,252 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EthioViral - Start Growing Today</title>
+    <title>EthioViral - #1 Cheap SMM Panel in Ethiopia</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #ffffff;
-        }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0E1116; color: white; }
+        /* Hide scrollbar for clean look */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0E1116; }
+        ::-webkit-scrollbar-thumb { background: #333; border-radius: 4px; }
     </style>
 </head>
-<body class="flex flex-col lg:flex-row min-h-screen">
-    
-    <!-- Left Side: Wallpaper -->
-    <div class="lg:w-[60%] w-full h-[40vh] lg:h-screen bg-cover bg-center relative" style="background-image: url('./assets/wallpaper.jpg');">
-        <!-- Overlay for better text readability if needed -->
-        <div class="absolute inset-0 bg-black bg-opacity-20"></div>
+<body class="antialiased">
+
+    <!-- HERO SECTION (Based on user's Resadex reference design) -->
+    <section class="relative w-full h-screen flex flex-col items-center justify-center bg-cover bg-center overflow-hidden" style="background-image: url('./assets/hero_bg.jpg');">
         
-        <!-- Logo Area -->
-        <div class="absolute top-8 left-8 flex items-center z-10">
-            <div class="text-white text-2xl font-bold flex items-center gap-2">
-                <!-- SVG Logo placeholder (Green Shield/Check) -->
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Dark overlay to ensure text readability -->
+        <div class="absolute inset-0 bg-black/30"></div>
+
+        <!-- Floating Glass Navbar -->
+        <nav class="absolute top-6 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl h-16 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full flex items-center justify-between px-4 lg:px-8 z-50 shadow-2xl">
+            <!-- Logo -->
+            <div class="flex items-center gap-2 font-bold text-lg tracking-wide text-white">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 2L3 6V12C3 17.55 6.84 22.74 12 24C17.16 22.74 21 17.55 21 12V6L12 2Z" fill="#10B981"/>
                     <path d="M10.5 16.5L6.5 12.5L7.91 11.09L10.5 13.67L16.09 8.09L17.5 9.5L10.5 16.5Z" fill="white"/>
                 </svg>
-                EthioViral
-            </div>
-        </div>
-
-        <!-- Left side footer links (Terms, Privacy, etc.) -->
-        <div class="absolute bottom-8 left-8 flex gap-6 text-sm text-gray-300 font-medium z-10 hidden lg:flex">
-            <a href="#" class="hover:text-white transition">Terms of Service</a>
-            <a href="#" class="hover:text-white transition">Privacy Policy</a>
-            <a href="#" class="hover:text-white transition">Compliance</a>
-        </div>
-    </div>
-
-    <!-- Right Side: Action Widget -->
-    <div class="lg:w-[40%] w-full flex flex-col justify-center items-center p-8 relative min-h-screen lg:min-h-0 bg-white">
-        
-        <!-- Top Right Navigation -->
-        <div class="absolute top-8 right-8 flex items-center gap-6 text-sm font-medium">
-            <a href="#" class="text-gray-900 hover:text-gray-600 transition">Contact</a>
-            <a href="#" class="bg-black text-white px-5 py-2.5 rounded-full hover:bg-gray-800 transition shadow-md">Get started</a>
-        </div>
-
-        <!-- Main Content Wrapper -->
-        <div class="max-w-[420px] w-full mt-16 lg:mt-0">
-            <h1 class="text-4xl lg:text-[42px] font-bold text-gray-900 leading-tight mb-8 text-center lg:text-left tracking-tight">
-                Grow your reach <br/>
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 to-green-400">fast and secure</span>
-            </h1>
-
-            <!-- Widget Card -->
-            <div class="bg-white rounded-3xl p-6 lg:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.08)] border border-gray-100">
-                
-                <!-- Tabs -->
-                <div class="flex bg-gray-100 p-1 rounded-2xl mb-8">
-                    <button class="flex-1 bg-white shadow-sm text-gray-900 font-semibold py-2.5 rounded-xl text-sm transition">Followers</button>
-                    <button class="flex-1 text-gray-500 font-medium py-2.5 rounded-xl text-sm hover:text-gray-900 transition">Views</button>
-                    <button class="flex-1 text-gray-500 font-medium py-2.5 rounded-xl text-sm hover:text-gray-900 transition">Likes</button>
-                </div>
-
-                <!-- Input Group: You want -->
-                <div class="mb-4">
-                    <label class="block text-sm font-semibold text-gray-900 mb-3">Service</label>
-                    <div class="flex items-center justify-between border border-gray-200 rounded-2xl p-4 hover:border-gray-300 transition cursor-pointer">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-orange-400 flex items-center justify-center text-white">
-                                <!-- Instagram icon -->
-                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
-                            </div>
-                            <div>
-                                <div class="font-bold text-gray-900">Instagram</div>
-                                <div class="text-xs text-gray-500">Premium Followers</div>
-                            </div>
-                        </div>
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </div>
-                </div>
-
-                <!-- Swap icon separator -->
-                <div class="flex justify-center -my-2 relative z-10">
-                    <div class="bg-gray-50 rounded-full p-2 border border-gray-100 shadow-sm text-gray-400">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
-                    </div>
-                </div>
-
-                <!-- Input Group: Amount -->
-                <div class="mt-4 mb-6">
-                    <label class="block text-sm font-semibold text-gray-900 mb-3">Amount</label>
-                    <div class="flex items-center justify-between border border-gray-200 rounded-2xl p-4">
-                        <input type="text" value="1,000" class="text-3xl font-bold text-gray-900 outline-none w-1/2 bg-transparent" readonly>
-                        <div class="text-right">
-                            <div class="text-2xl font-bold text-gray-900">$1.50</div>
-                            <div class="text-xs text-gray-500 mt-1">Est. delivery: 1-2 hrs</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center text-xs text-gray-500 font-medium mb-6">
-                    Secure checkout via Telebirr or Card
-                </div>
-
-                <button class="w-full bg-black text-white font-semibold py-4 rounded-2xl text-base hover:bg-gray-800 transition shadow-lg transform hover:-translate-y-0.5">
-                    Order Now
-                </button>
+                ETHIOVIRAL
             </div>
             
-            <div class="mt-8 text-center text-xs font-medium text-gray-400 lg:hidden">
-                © 2026 EthioViral. All rights reserved.
+            <!-- Center Links (Hidden on mobile) -->
+            <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-gray-200">
+                <a href="#" class="bg-white text-black px-4 py-1.5 rounded-full">Home</a>
+                <a href="#services" class="hover:text-white transition">Services</a>
+                <a href="#pricing" class="hover:text-white transition">Pricing</a>
+                <a href="#api" class="hover:text-white transition">API</a>
+                <a href="#" class="hover:text-white transition">Blog</a>
+            </div>
+
+            <!-- CTA Button -->
+            <a href="#services" class="bg-black/80 hover:bg-black text-white text-sm font-semibold px-6 py-2.5 rounded-full border border-white/10 transition shadow-lg">
+                Order Now
+            </a>
+        </nav>
+
+        <!-- Huge Centered Text -->
+        <h1 class="relative z-10 text-4xl sm:text-6xl md:text-8xl lg:text-[140px] font-light tracking-[0.3em] md:tracking-[0.5em] text-white/95 ml-[0.3em] md:ml-[0.5em] drop-shadow-2xl">
+            ETHIOVIRAL
+        </h1>
+
+        <!-- Scroll Indicator -->
+        <a href="#services" class="absolute bottom-10 flex flex-col items-center gap-3 text-[10px] sm:text-xs tracking-[0.4em] text-white/70 hover:text-white transition z-10">
+            S C R O L L &nbsp; D O W N
+            <svg class="animate-bounce mt-2" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </a>
+    </section>
+
+    <!-- SECTION 2: Action & Details (Integrating old website details + fixing the widget) -->
+    <section id="services" class="max-w-7xl mx-auto px-6 py-24 lg:py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <!-- Left Side: Old website details integrated cleanly -->
+            <div>
+                <div class="text-[#10B981] font-semibold tracking-wider text-sm mb-3">GROW YOUR REACH</div>
+                <h2 class="text-4xl lg:text-5xl font-bold mb-6 leading-tight">Every important step <br>stays visible.</h2>
+                <p class="text-gray-400 text-lg mb-10 leading-relaxed">
+                    Choose a service. Set the quantity. Place one clear order. <br>
+                    We provide the most reliable Instagram followers, TikTok views, YouTube subscribers, and Telegram members in Ethiopia.
+                </p>
+
+                <div class="space-y-6">
+                    <div class="flex gap-4 items-start p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-[#10B981]/50 transition cursor-pointer">
+                        <div class="w-10 h-10 rounded-full bg-[#10B981]/20 flex items-center justify-center text-[#10B981] shrink-0 mt-1">1</div>
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Select your service</h3>
+                            <p class="text-gray-400 text-sm">Choose from Instagram, TikTok, YouTube, Facebook, and Telegram.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-[#10B981]/50 transition cursor-pointer">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white shrink-0 mt-1">2</div>
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Enter profile link</h3>
+                            <p class="text-gray-400 text-sm">No passwords required. We only need your public username or post link.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start p-4 rounded-2xl bg-white/5 border border-white/10 hover:border-[#10B981]/50 transition cursor-pointer">
+                        <div class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white shrink-0 mt-1">3</div>
+                        <div>
+                            <h3 class="font-bold text-xl mb-1">Fast Delivery</h3>
+                            <p class="text-gray-400 text-sm">Orders start processing instantly. Refill guarantee included on premium services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: The Order Widget (from the previous design, customized for dark mode) -->
+            <div class="bg-[#151921] rounded-[2rem] p-6 lg:p-8 shadow-2xl border border-white/10 relative overflow-hidden">
+                <!-- Soft glow effect behind widget -->
+                <div class="absolute -top-20 -right-20 w-64 h-64 bg-[#10B981] rounded-full mix-blend-screen filter blur-[100px] opacity-20"></div>
+
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-bold mb-6">Quick Order</h3>
+                    
+                    <!-- Tabs -->
+                    <div class="flex bg-black/40 p-1.5 rounded-2xl mb-8 border border-white/5">
+                        <button class="flex-1 bg-[#232833] text-white font-semibold py-2.5 rounded-xl text-sm transition shadow-sm border border-white/10">Followers</button>
+                        <button class="flex-1 text-gray-400 font-medium py-2.5 rounded-xl text-sm hover:text-white transition">Views</button>
+                        <button class="flex-1 text-gray-400 font-medium py-2.5 rounded-xl text-sm hover:text-white transition">Likes</button>
+                    </div>
+
+                    <!-- Input: Service -->
+                    <div class="mb-4">
+                        <label class="block text-sm font-semibold text-gray-300 mb-3">Service Platform</label>
+                        <div class="flex items-center justify-between border border-white/10 bg-black/20 rounded-2xl p-4 hover:border-white/30 transition cursor-pointer">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-gradient-to-tr from-pink-500 to-orange-400 flex items-center justify-center text-white">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                                </div>
+                                <div>
+                                    <div class="font-bold text-white">Instagram</div>
+                                    <div class="text-xs text-[#10B981]">Premium Guaranteed</div>
+                                </div>
+                            </div>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9CA3AF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </div>
+                    </div>
+
+                    <!-- Input: Link -->
+                    <div class="mb-4">
+                        <label class="block text-sm font-semibold text-gray-300 mb-3">Profile / Post Link</label>
+                        <input type="text" placeholder="https://instagram.com/username" class="w-full border border-white/10 bg-black/20 rounded-2xl p-4 text-white outline-none focus:border-[#10B981] transition">
+                    </div>
+
+                    <!-- Input: Amount -->
+                    <div class="mt-6 mb-6">
+                        <label class="block text-sm font-semibold text-gray-300 mb-3">Quantity</label>
+                        <div class="flex items-center justify-between border border-white/10 bg-black/20 rounded-2xl p-4">
+                            <input type="text" value="1,000" class="text-3xl font-bold text-white outline-none w-1/2 bg-transparent" readonly>
+                            <div class="text-right">
+                                <div class="text-2xl font-bold text-white">$1.50</div>
+                                <div class="text-xs text-gray-400 mt-1">Est. delivery: 1-2 hrs</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="w-full bg-[#10B981] text-white font-bold py-4 rounded-2xl text-base hover:bg-[#059669] transition shadow-[0_0_20px_rgba(16,185,129,0.3)] transform hover:-translate-y-0.5">
+                        Place Order
+                    </button>
+                </div>
             </div>
         </div>
-        
-        <div class="absolute bottom-8 text-xs font-medium text-gray-400 hidden lg:block">
-            © 2026 EthioViral. All rights reserved.
+    </section>
+
+    <!-- SECTION 3: Trust Elements & Fixing the Empty Void -->
+    <section id="pricing" class="border-t border-white/5 bg-[#12151C] py-20">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold mb-4">Trusted by thousands in Ethiopia</h2>
+                <p class="text-gray-400">Secure payments, fast delivery, and real support.</p>
+            </div>
+
+            <!-- Stats & Trust -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20 border-b border-white/5 pb-20">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">25K+</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wider">Total Orders</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">4.9/5</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wider">Customer Rating</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">24/7</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wider">Telegram Support</div>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-white mb-2">100%</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wider">Secure Payment</div>
+                </div>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="text-center">
+                <h3 class="text-sm font-semibold text-gray-400 uppercase tracking-widest mb-8">Accepted Local Payment Methods</h3>
+                <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-70">
+                    <div class="text-xl font-bold tracking-tight">Telebirr</div>
+                    <div class="text-xl font-bold tracking-tight">CBE Birr</div>
+                    <div class="text-xl font-bold tracking-tight">ShegerPay</div>
+                    <div class="text-xl font-bold tracking-tight">USDT Crypto</div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-white/10 bg-[#0A0D12] pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center gap-2 font-bold text-xl tracking-wide text-white mb-4">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L3 6V12C3 17.55 6.84 22.74 12 24C17.16 22.74 21 17.55 21 12V6L12 2Z" fill="#10B981"/>
+                            <path d="M10.5 16.5L6.5 12.5L7.91 11.09L10.5 13.67L16.09 8.09L17.5 9.5L10.5 16.5Z" fill="white"/>
+                        </svg>
+                        ETHIOVIRAL
+                    </div>
+                    <p class="text-gray-500 text-sm max-w-sm mb-6 leading-relaxed">
+                        The #1 cheapest and most reliable SMM panel in Ethiopia. Buy Instagram followers, TikTok views, and Telegram members instantly.
+                    </p>
+                    <a href="https://t.me/ethioviral" class="inline-flex items-center gap-2 bg-[#0088cc] text-white px-4 py-2 rounded-xl text-sm font-medium hover:bg-[#0077b5] transition">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.892-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        Join our Telegram
+                    </a>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-3 text-gray-500 text-sm">
+                        <li><a href="#" class="hover:text-white transition">Instagram Followers</a></li>
+                        <li><a href="#" class="hover:text-white transition">TikTok Views</a></li>
+                        <li><a href="#" class="hover:text-white transition">YouTube Subs</a></li>
+                        <li><a href="#" class="hover:text-white transition">Telegram Members</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Company</h4>
+                    <ul class="space-y-3 text-gray-500 text-sm">
+                        <li><a href="#" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="#" class="hover:text-white transition">API Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-white transition">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-600">
+                <p>&copy; 2026 EthioViral. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-gray-300 transition">Privacy</a>
+                    <a href="#" class="hover:text-gray-300 transition">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
